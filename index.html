@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vignesh | DevOps Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0d1117;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:#161b22;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,.4);
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#58a6ff;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+transition:.3s;
+}
+
+nav a:hover{
+color:#58a6ff;
+}
+
+section{
+padding:100px 10%;
+min-height:100vh;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:15px;
+}
+
+.hero h1 span{
+color:#58a6ff;
+}
+
+.hero h3{
+font-size:28px;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#b8b8b8;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 30px;
+background:#58a6ff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#238636;
+}
+
+.hero img{
+width:300px;
+border-radius:50%;
+border:5px solid #58a6ff;
+box-shadow:0 0 30px #58a6ff;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#58a6ff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#161b22;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #58a6ff;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#58a6ff;
+}
+
+.skill{
+background:#161b22;
+padding:20px;
+text-align:center;
+border-radius:15px;
+font-size:20px;
+transition:.3s;
+}
+
+.skill:hover{
+background:#238636;
+transform:scale(1.05);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:15px 0;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#161b22;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero img{
+margin-bottom:30px;
+width:220px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Vignesh</div>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Hi, I'm <span>Vignesh</span></h1>
+
+<h3>Linux Administrator | AWS Cloud | DevOps Engineer</h3>
+
+<p>
+
+Passionate Linux Administrator with hands-on experience in AWS Cloud,
+Docker, Kubernetes, GitLab CI/CD, ArgoCD, Prometheus and Grafana.
+I enjoy automating infrastructure and solving real-world DevOps problems.
+
+</p>
+
+<a href="#" class="btn">Download Resume</a>
+
+</div>
+
+<img src="https://avatars.githubusercontent.com/u/9919?v=4">
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Education</h3>
+
+<p>B.Tech Artificial Intelligence and Data Science</p>
+
+</div>
+
+<div class="card">
+
+<h3>Experience</h3>
+
+<p>Linux, Docker, Kubernetes, AWS and GitLab CI/CD Projects.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Career Goal</h3>
+
+<p>Become a Professional DevOps Engineer and Cloud Engineer.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+
+<div class="skill">AWS</div>
+
+<div class="skill">Docker</div>
+
+<div class="skill">Kubernetes</div>
+
+<div class="skill">Git</div>
+
+<div class="skill">GitHub</div>
+
+<div class="skill">GitLab CI/CD</div>
+
+<div class="skill">ArgoCD</div>
+
+<div class="skill">Helm</div>
+
+<div class="skill">Prometheus</div>
+
+<div class="skill">Grafana</div>
+
+<div class="skill">Bash</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>AWS Highly Available Architecture</h3>
+
+<p>
+
+Created a highly available AWS infrastructure using EC2,
+VPC, ALB, Auto Scaling and CloudWatch.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Kubernetes Monitoring</h3>
+
+<p>
+
+Deployed Prometheus & Grafana using Helm in Kubernetes
+for monitoring cluster resources.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>GitLab CI/CD</h3>
+
+<p>
+
+Automated Docker image build and Kubernetes deployment
+using GitLab CI/CD pipelines.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Linux Server Administration</h3>
+
+<p>
+
+Configured Apache, SSH, FTP, NFS, LVM and system security.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="contact">
+
+<p>📧 yourmail@gmail.com</p>
+
+<p>📱 +91 XXXXXXXXXX</p>
+
+<p>📍 Tamil Nadu, India</p>
+
+<br>
+
+<a href="https://github.com/" class="btn">GitHub</a>
+
+<a href="https://linkedin.com/" class="btn">LinkedIn</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Vignesh | DevOps Portfolio
+
+</footer>
+
+</body>
+</html>
